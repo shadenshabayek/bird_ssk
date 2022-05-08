@@ -385,7 +385,7 @@ def main():
     input = 'notes-00000.csv'
     list_id = get_tweet_ids (input)
 
-    file_name = 'tweet_metrics_notes_2022_05_02.csv'
+    file_name = 'tweet_metrics_notes_2022_05_02_with_links.csv'
     bearer_token = os.getenv('TWITTER_TOKEN')
 
     get_100_tweets(list_id, file_name, bearer_token)
